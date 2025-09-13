@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DNEDL Animation Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DNEDL Dynamic Animation Demo</h1>
+
+  <!-- Button with transition effect -->
+  <button id="animateBtn">Animate Box</button>
+
+  <!-- Animated box -->
+  <div id="box"></div>
+
+  <!-- Card flip -->
+  <div class="card" id="card">
+    <div class="card-inner">
+      <div class="card-front">Front</div>
+      <div class="card-back">Back</div>
+    </div>
+  </div>
+
+  <!-- Loading animation -->
+  <button id="toggleLoading">Toggle Loading</button>
+  <div class="loader" id="loader"></div>
+
+  <!-- Modal -->
+  <button id="openModal">Open Modal</button>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <p>This is a sliding modal!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
